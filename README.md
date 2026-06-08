@@ -1,14 +1,14 @@
 # Bank Term Deposit Subscription Prediction
 
-A machine learning project that predicts whether a customer is likely to subscribe to a bank term deposit using demographic, financial, and campaign-related features. The underlying Bank Marketing dataset is widely described as data from direct marketing campaigns of a Portuguese banking institution conducted mainly through phone calls.[1][2]
+A machine learning project that predicts whether a customer is likely to subscribe to a bank term deposit using demographic, financial, and campaign-related features. The underlying Bank Marketing dataset is widely described as data from direct marketing campaigns of a Portuguese banking institution conducted mainly through phone calls.
 
 ## Overview
 
-This project combines exploratory data analysis, preprocessing, model building, evaluation, explainability, and deployment in one end-to-end workflow. The goal is not just to build a classifier, but to make the prediction usable through a Streamlit web application with saved model artifacts for inference.[3][4]
+This project combines exploratory data analysis, preprocessing, model building, evaluation, explainability, and deployment in one end-to-end workflow. The goal is not just to build a classifier, but to make the prediction usable through a Streamlit web application with saved model artifacts for inference.
 
 ## Problem Statement
 
-Banks run marketing campaigns to convince customers to subscribe to term deposits, but contacting every customer is expensive and inefficient. This project aims to predict which customers are more likely to subscribe so campaigns can become more targeted and cost-effective.[1][5]
+Banks run marketing campaigns to convince customers to subscribe to term deposits, but contacting every customer is expensive and inefficient. This project aims to predict which customers are more likely to subscribe so campaigns can become more targeted and cost-effective.
 
 ## Objectives
 
@@ -21,7 +21,7 @@ Banks run marketing campaigns to convince customers to subscribe to term deposit
 
 ## Dataset
 
-The dataset used in this project is based on the Bank Marketing dataset, which contains customer information and campaign interaction variables related to direct marketing efforts for term deposit subscription. Public descriptions of the dataset note that the task is to predict whether the client will subscribe to a term deposit.[1][2]
+The dataset used in this project is based on the Bank Marketing dataset, which contains customer information and campaign interaction variables related to direct marketing efforts for term deposit subscription. Public descriptions of the dataset note that the task is to predict whether the client will subscribe to a term deposit.
 
 ### Target Variable
 
@@ -69,7 +69,7 @@ Feature importance and SHAP analysis help explain which factors contribute most 
 
 ### 6. Deployment
 
-The final trained model and preprocessing pipeline are saved and connected to a Streamlit application for live predictions. Streamlit is commonly used to turn trained machine learning pipelines into simple interactive apps.[4]
+The final trained model and preprocessing pipeline are saved and connected to a Streamlit application for live predictions. Streamlit is commonly used to turn trained machine learning pipelines into simple interactive apps.
 
 ## Repository Structure
 
@@ -126,11 +126,11 @@ pip install -r requirements.txt
 streamlit run app.py
 ```
 
-Streamlit apps are typically run from the project root using the `streamlit run` command against the app entry file.[4]
+Streamlit apps are typically run from the project root using the `streamlit run` command against the app entry file.
 
 ## Model Artifacts
 
-The repository stores the trained model and preprocessing pipeline separately using Joblib so predictions can be reproduced consistently in the application layer. This kind of serialized artifact workflow is common in deployed Scikit-learn projects.[4]
+The repository stores the trained model and preprocessing pipeline separately using Joblib so predictions can be reproduced consistently in the application layer. This kind of serialized artifact workflow is common in deployed Scikit-learn projects.
 
 - `models/best_model.joblib`
 - `preprocessors/preprocessor.joblib`
@@ -154,9 +154,6 @@ The repository stores the trained model and preprocessing pipeline separately us
 
 ## Learning Outcomes
 
-This project demonstrates practical skills in data preprocessing, supervised learning, imbalance handling, model interpretation, and deployment of a machine learning application. Good machine learning project READMEs are expected to explain what the project does, why it is useful, and how to run it clearly for readers and recruiters.[3][6]
+This project demonstrates practical skills in data preprocessing, supervised learning, imbalance handling, model interpretation, and deployment of a machine learning application. Good machine learning project READMEs are expected to explain what the project does, why it is useful, and how to run it clearly for readers and recruiters.
 
-## Author
 
-**Abhishek**  
-GitHub: [Itz-Abhishek2004](https://github.com/Itz-Abhishek2004)
